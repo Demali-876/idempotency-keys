@@ -1,6 +1,6 @@
 [package]
 name = "idempotency-keys"
-version = "1.0.0"
+version = "1.0.1"
 description = "UUID V4 (RFC4122)implementation for idempotent HTTP-Requests"
 repository = "https://github.com/Demali-876/idempotent-keys"
 keywords = [ "idempotency", "http" ]
