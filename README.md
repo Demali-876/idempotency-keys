@@ -16,7 +16,7 @@ To use this module, you need to import it and provide a 16-byte (or larger) blob
 First, import the module into your project:
 
 ```motoko
-import UUID "UUID";
+import UUID "idempotency-keys";
 ```
 
 ### Generating Random Data
@@ -32,7 +32,7 @@ let entropy = await Random.blob();
 Finally, generate the UUID by calling the `generateV4` function with the random data:
 
 ```motoko
-let idempotency_key: Text = UUID.generateV4(entropy);
+let idempotent_key: Text = UUID.generateV4(entropy);
 ```
 
 ## API Reference
