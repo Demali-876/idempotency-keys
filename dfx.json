@@ -1,7 +1,7 @@
 {
   "canisters": {
-    "idempotency-keys-backend": {
-      "main": "src/idempotency-keys-backend/main.mo",
+    "Test-http-Post": {
+      "main": "src/idempotency-keys/test.mo",
       "type": "motoko"
     }
   },
