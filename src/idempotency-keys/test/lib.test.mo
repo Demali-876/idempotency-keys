@@ -4,8 +4,8 @@ import Nat8 "mo:base/Nat8";
 import Text "mo:base/Text";
 import Random "mo:base/Random";
 
-import Types "types";
-import UUID "UUID";
+import Types "../types";
+import UUID "../UUID";
 
 actor {
 
