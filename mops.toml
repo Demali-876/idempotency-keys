@@ -1,7 +1,10 @@
 [package]
-name = "idempotency-keys"
+name = "idempotent-keys"
 version = "1.0.0"
 description = "UUID V4 (RFC4122)implementation for idempotent HTTP-Requests"
-repository = "https://github.com/Demali-876/idempotency-keys"
+repository = "https://github.com/Demali-876/idempotent-keys"
 keywords = [ "idempotency", "http" ]
 license = "MIT"
+
+[dependencies]
+base = "0.12.0"
