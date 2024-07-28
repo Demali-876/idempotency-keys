@@ -5,7 +5,7 @@ import Text "mo:base/Text";
 import Random "mo:base/Random";
 
 import Types "../types";
-import UUID "../UUID";
+import UUID "../lib";
 
 actor {
 
